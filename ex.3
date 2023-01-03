@@ -1,0 +1,10 @@
+colors = {'yellow': '\033[1:33m',
+          'red': '\033[1:31m',
+          'purple': '\033[1:35m',
+          'clear': '\033[m'}
+n1 = int(input('Type a number: '))
+n2 = int(input('Type another number: '))
+s = n1 + n2
+print('The sum between {} {} {} e {} {} {} is equal to {} {} {}'.format(colors['yellow'], n1, colors['clear'],
+                                                                   colors['red'], n2, colors['clear'],
+                                                                   colors['purple'], s, colors['clear']))
